@@ -1,11 +1,13 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_evRHrjDgLdqSfPEVJSiRDxPz0067bWQg59",
   s3: {
     REGION: "us-west-2",
     BUCKET: "jmartin-notes-app-upload"
   },
   apiGateway: {
     REGION: "us-west-2",
-    URL: "YOURhttps://w01mr1rnhe.execute-api.us-west-2.amazonaws.com/prod "
+    URL: "https://w01mr1rnhe.execute-api.us-west-2.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-west-2",
